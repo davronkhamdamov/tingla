@@ -1,0 +1,271 @@
+@media (max-width:376px) {
+
+
+    .container {
+        width: 366px;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* hero section start */
+
+    .hero {
+        width: 366px;
+        flex-direction: column-reverse;
+    }
+    header::after,  header::before{
+        display: none;
+    }
+    .hero__text-title {
+        width: 293px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .hero__text-text {
+        font-size: 18px;
+        line-height: 32px;
+        width: 336px;
+    }
+
+    .hero__image-image {
+        height: 437px;
+        width: 307px;
+
+    }
+
+    /* hero section end */
+    /* ads section start */
+
+    .ads::after {
+        display: none;
+    }
+
+    .ads {
+        margin-top: 30px;
+        padding-bottom: 240px;
+        transition: .2s ease;
+    }
+
+    .mobile-img {
+        display: block;
+        width: 336px;
+
+    }
+
+    .ads-img {
+        display: none;
+
+    }
+
+    /* ads section end */
+
+    /* about section start */
+    .about__item {
+        padding: 400px 24px 36px 24px;
+    }
+
+    .about__item-title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .about__item-text {
+        width: 290px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .about__item-img {
+        width: 335px;
+        height: 523px;
+        bottom: 310px;
+        left: -10px;
+    }
+
+    /* about section end */
+    /* audio section start */
+
+
+    .audio {
+        flex-direction: column;
+    }
+    .audio::after{
+        position: relative;
+        bottom: -px;
+    }
+    .audio__text-title {
+        width: 300px;
+        font-size: 26px;
+        line-height: 31px;
+
+    }
+
+    .audio__text-text {
+        width: 305px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .audio__image-image {
+        height: 346px;
+        width: 364px;
+    }
+
+    /* audio section end */
+    /* currect section start */
+    .currect {
+        padding-bottom: 100px;
+    }
+
+    .currect__item {
+        width: 346px;
+        padding: 370px 24px 36px 24px;
+    }
+
+    .currect__item-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .currect__item-text {
+        width: 318px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .currect__item-img {
+        height: 516px;
+        width: 268px;
+        bottom: 330px;
+        left: 30px;
+    }
+
+
+    /* currect section end */
+    /* download section start */
+
+
+    .download {
+        width: 100%;
+        background-color: transparent;
+        flex-direction: column;
+    }
+
+    .download__item-title {
+        width: 321px;
+        font-size: 25px;
+        line-height: 36px;
+        margin: 32px 0;
+    }
+
+
+    .download__item-img {
+        display: flex;
+    }
+
+    .download__item-img {
+        width: 302px;
+        height: 369px;
+    }
+
+    .download__item-method-img {
+        width: 159px;
+        height: 47px;
+        margin: 0;
+
+
+    }
+
+    /* download setion end */
+    /* footer start */
+
+    footer {
+        padding-top: 60px;
+    }
+
+    footer::after {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-title {
+        weight: 34px;
+        width: 113px;
+    }
+
+    .footer__item-phone {
+        margin-bottom: 90px;
+    }
+
+    .footer-num {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+
+    }
+
+    .footer__item-text {
+        font-size: 13px;
+    }
+
+    .footer__item {
+        width: 181px;
+    }
+
+    .footer__item-phone {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__item-number {
+        width: 160px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .block {
+        display: block;
+        margin-top: 44px;
+    }
+
+    .decktop {
+        display: none;
+    }
+
+    .mobile-phone {
+        display: block;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .footer__item-number-link {
+        font-size: 17px;
+    }
+
+    .footer__item-link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer__item-social {
+        width: 140px;
+        font-size: 26px;
+        margin-left: 40px;
+    }
+
+    .margin {
+        margin: 20px;
+    }
+
+    /* footer end */
+
+}
