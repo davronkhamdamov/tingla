@@ -14,9 +14,12 @@
         width: 366px;
         flex-direction: column-reverse;
     }
-    header::after,  header::before{
+
+    header::after,
+    header::before {
         display: none;
     }
+
     .hero__text-title {
         width: 293px;
         font-size: 36px;
@@ -91,10 +94,12 @@
     .audio {
         flex-direction: column;
     }
-    .audio::after{
+
+    .audio::after {
         position: relative;
         bottom: -px;
     }
+
     .audio__text-title {
         width: 300px;
         font-size: 26px;
@@ -196,7 +201,6 @@
     }
 
     .footer-title {
-        weight: 34px;
         width: 113px;
     }
 
